@@ -19,7 +19,7 @@ This project investigates whether financial instability behaves more like an evo
 
 Instead of asking:
 
-> "Is this borrower risky?"
+> “Is this borrower risky?”
 
 BEFI asks:
 
@@ -47,7 +47,8 @@ BEFI was designed as a next-generation behavioural financial intelligence platfo
 - propagated financial instability,
 - explainable operational intelligence,
 - temporal behavioural evolution,
-- and ecosystem-level contagion.
+- ecosystem-level contagion,
+- and uncertainty-aware financial intelligence.
 
 The project moves beyond traditional credit scoring toward:
 
@@ -57,9 +58,35 @@ The long-term objective is not simply predicting default, but understanding how 
 
 ---
 
+# Why This Project Matters
+
+Many modern financial systems still rely heavily on:
+- static scoring,
+- isolated borrower analysis,
+- and opaque decision systems.
+
+BEFI explores a different hypothesis:
+
+> Financial instability behaves more like an evolving network ecosystem than a collection of independent financial events.
+
+This project was especially influenced by:
+- systemic banking risk research,
+- South African financial ecosystem research,
+- explainable AI,
+- behavioural finance,
+- and graph-based intelligence systems.
+
+BEFI therefore attempts to model:
+- behavioural interconnectedness,
+- propagated instability,
+- uncertainty-aware financial intelligence,
+- and temporal behavioural evolution.
+
+---
+
 # Core Research Philosophy
 
-BEFI was built around four major ideas:
+BEFI was built around four major ideas.
 
 ---
 
@@ -127,7 +154,8 @@ Using Markov Chains, the system investigates:
 - behavioural state evolution,
 - temporal borrower deterioration,
 - future instability,
-- and ecosystem migration over time.
+- ecosystem migration,
+- and behavioural forecasting over time.
 
 ---
 
@@ -254,7 +282,8 @@ The system can now investigate:
 - future borrower deterioration,
 - repayment instability migration,
 - temporal contagion,
-- and evolving behavioural ecosystems.
+- evolving behavioural ecosystems,
+- and probabilistic behavioural transitions.
 
 Example:
 
@@ -330,7 +359,8 @@ Planned Python capabilities include:
 - predictive ML,
 - temporal dashboards,
 - ecosystem analytics,
-- and contagion visualisation.
+- contagion visualisation,
+- and explainable AI dashboards.
 
 ---
 
@@ -391,31 +421,213 @@ This gives the platform contextual relevance beyond generic Western financial sc
 
 ## South African Banking and Financial Intelligence Research
 
-- DSFSI ZA-BANK-RISK Repository  
-  https://github.com/dsfsi/za-bank-risk
+### DSFSI ZA-BANK-RISK Repository
+https://github.com/dsfsi/za-bank-risk
 
-- University of Pretoria Banking Risk Research  
-  https://repository.up.ac.za/server/api/core/bitstreams/6551cc01-75d4-4213-9696-dc382cb38a06/content
-
-- SciELO Systemic Banking Risk Research  
-  https://www.scielo.org.za/scielo.php?script=sci_arttext&pid=S2313-78352021000200004
-
----
-
-## Explainable AI and Interpretable Machine Learning
-
-- Explainable AI for Tree-Based Models  
-  https://arxiv.org/abs/1706.07466
-
-- Interpretable Machine Learning in Financial Systems  
-  https://arxiv.org/abs/2005.14658
+Influenced:
+- South African financial risk modelling
+- banking analytics architecture
+- systemic banking intelligence
+- financial ecosystem reasoning
 
 ---
 
-## Banking Analytics and EDA
+### University of Pretoria Banking Risk Research
+https://repository.up.ac.za/server/api/core/bitstreams/6551cc01-75d4-4213-9696-dc382cb38a06/content
 
-- EDA Banking Python Project  
-  https://github.com/SouRitra01/Exploratory-Data-Analysis-EDA-in-Banking-Python-Project-/blob/main/Proj1_EDA_Pandas_Banking%20(1).ipynb
+Influenced:
+- systemic banking instability concepts
+- financial interconnectedness
+- ecosystem-level financial analysis
+
+---
+
+### SciELO South African Banking Risk Research
+https://www.scielo.org.za/scielo.php?script=sci_arttext&pid=S2313-78352021000200004
+
+Influenced:
+- banking network modelling
+- financial contagion thinking
+- systemic ecosystem analysis
+
+---
+
+### University of Pretoria Credit Risk Research
+https://repository.up.ac.za/server/api/core/bitstreams/d6a939c0-c0dd-4c0b-a8f1-4ff6e12211b7/content
+
+Influenced:
+- credit scoring theory
+- explainable financial modelling
+- probabilistic banking systems
+- logistic regression reasoning
+
+---
+
+# Explainable AI and Interpretable Machine Learning
+
+### Explainable AI for Tree-Based Models
+https://arxiv.org/abs/1706.07466
+
+Influenced:
+- explainable behavioural scoring
+- transparent AI systems
+- human-readable operational intelligence
+
+---
+
+### Interpretable Machine Learning in Financial Systems
+https://arxiv.org/abs/2005.14658
+
+Influenced:
+- interpretable behavioural intelligence
+- explainable financial AI
+- operational transparency frameworks
+
+---
+
+# Banking Analytics and Exploratory Data Analysis
+
+### EDA Banking Python Project
+https://github.com/SouRitra01/Exploratory-Data-Analysis-EDA-in-Banking-Python-Project-/blob/main/Proj1_EDA_Pandas_Banking%20(1).ipynb
+
+Influenced:
+- banking EDA workflows
+- financial preprocessing
+- behavioural feature exploration
+- financial dataset analytics
+
+---
+
+# Behavioural Finance and Economic Psychology
+
+### Daniel Kahneman — Thinking, Fast and Slow
+
+Influenced:
+- behavioural uncertainty
+- financial irrationality
+- cognitive bias thinking
+- uncertainty-aware intelligence
+
+---
+
+### Richard Thaler — Nudge
+
+Influenced:
+- behavioural economic reasoning
+- human-centred financial behaviour
+- behavioural system framing
+
+---
+
+### Robert Shiller — Narrative Economics
+
+Influenced:
+- financial behaviour as evolving systems
+- narrative-driven economic behaviour
+- ecosystem-level financial thinking
+
+---
+
+# Graph Theory and Network Science
+
+### Network Science — Albert-László Barabási
+http://networksciencebook.com
+
+Influenced:
+- ecosystem modelling
+- behavioural network thinking
+- graph-connected instability
+- contagion reasoning
+
+---
+
+### NetworkX Documentation
+https://networkx.org/documentation/stable/
+
+Influenced:
+- graph architecture concepts
+- ecosystem visualisation planning
+- network propagation concepts
+
+---
+
+# Temporal Modelling and Markov Systems
+
+### MIT OpenCourseWare — Discrete Stochastic Processes
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/
+
+Influenced:
+- stochastic behavioural modelling
+- temporal transition systems
+- probabilistic state evolution
+
+---
+
+### Stanford Encyclopedia — Markov Chains
+https://plato.stanford.edu/entries/markov-chains/
+
+Influenced:
+- temporal behavioural state modelling
+- future-state forecasting
+- transition probability reasoning
+
+---
+
+# Core Algorithmic Foundations
+
+### Princeton Algorithms — Union Find
+https://algs4.cs.princeton.edu/15uf/
+
+Influenced:
+- behavioural clustering
+- borrower ecosystem grouping
+- graph connectivity infrastructure
+
+---
+
+# Data Science and Machine Learning Foundations
+
+### Pandas
+https://pandas.pydata.org
+
+### Scikit-Learn
+https://scikit-learn.org/stable/
+
+### XGBoost
+https://xgboost.ai
+
+### Streamlit
+https://streamlit.io
+
+---
+
+# Software Engineering and Architecture Principles
+
+## SOLID Principles
+Influenced:
+- modular behavioural architecture
+- SRP-based system design
+- analytical separation of concerns
+
+---
+
+## Clean Architecture Concepts
+Influenced:
+- layered orchestration
+- intelligence pipeline separation
+- scalable financial system design
+
+---
+
+# Important Note
+
+Most of the behavioural architecture, graph orchestration, explainable intelligence layers, temporal modelling infrastructure, and ecosystem reasoning systems were custom-designed specifically for BEFI rather than cloned from external repositories.
+
+The external sources primarily served as:
+- conceptual inspiration,
+- research foundations,
+- theoretical guidance,
+- and architectural influence.
 
 ---
 
