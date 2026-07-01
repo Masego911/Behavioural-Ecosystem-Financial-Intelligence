@@ -100,15 +100,7 @@ BEFI was developed to investigate these questions through the integration of beh
 
 BEFI is designed as a behavioural financial intelligence platform capable of supporting multiple stakeholders within modern financial ecosystems.
 
-## Retail Banks
-
-Examples include:
-
-- FNB
-- Standard Bank
-- Absa
-- Nedbank
-- Capitec
+Retail Banks 
 
 Potential applications include:
 
