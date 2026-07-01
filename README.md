@@ -1,165 +1,323 @@
-# BEFI  
+# BEFI
+
 ## Behavioural Ecosystem Financial Intelligence
 
-### Graph-Based Behavioural Ecosystem Intelligence and Temporal Financial Risk Modelling
+### A Research-Driven Behavioural Financial Intelligence Platform
+
+---
+
+## About This Project
+
+Behavioural Ecosystem Financial Intelligence (BEFI) is an independent research and software engineering project developed for **FNB DataQuest 2026**.
+
+The project combines software engineering, behavioural science, psychology, graph theory, explainable artificial intelligence, temporal modelling, financial intelligence, and machine learning to investigate how financial behaviour can be understood beyond traditional credit scoring systems.
+
+Although originally developed as a competition project, BEFI has evolved into a long-term research platform that aims to investigate how modern enterprise technologies can be combined to build more transparent, explainable, and behaviourally informed financial intelligence systems.
+
+The long-term objective is to evolve BEFI into a modular enterprise platform using Java, Spring Boot, REST APIs, MongoDB, React, Python, Linux, Docker, and cloud-native technologies.
 
 ---
 
 # Rethinking Financial Risk as Behavioural Ecosystems
 
 Traditional financial systems often evaluate borrowers as isolated individuals using static variables such as:
-- income,
-- debt ratios,
-- repayment history,
-- and historical defaults.
 
-BEFI challenges that assumption.
+- Income
+- Debt-to-income ratios
+- Credit utilisation
+- Repayment history
+- Historical defaults
+- Credit bureau information
 
-This project investigates whether financial instability behaves more like an evolving behavioural ecosystem than a collection of independent borrowers.
+These approaches have contributed significantly to modern credit risk assessment. However, they often provide limited insight into why financial risk emerges, how financial instability develops, how behavioural patterns evolve over time, and how borrower behaviour is influenced by broader financial ecosystems.
+
+BEFI challenges this assumption.
+
+Instead of viewing financial data as isolated numerical observations, BEFI investigates whether financial behaviour behaves more like an evolving ecosystem of interconnected individuals whose behaviour changes over time.
 
 Instead of asking:
 
-> “Is this borrower risky?”
+> **"Is this borrower risky?"**
 
-BEFI asks:
+BEFI attempts to answer broader questions:
 
-- Why is this borrower risky?
-- Who influences this borrower?
-- How does instability spread?
+- Why is this borrower becoming financially stressed?
+- Which behavioural factors contribute to financial vulnerability?
+- How does financial instability propagate through connected borrower ecosystems?
 - How does borrower behaviour evolve over time?
-- What role does uncertainty play in financial intelligence?
+- What role does uncertainty play within financial intelligence?
+- How can explainable artificial intelligence improve lending decisions?
+- How can financial institutions identify opportunities for responsible intervention before customers enter financial distress?
 
-The result is a behavioural intelligence platform that combines:
-- graph analytics,
-- explainable AI,
-- behavioural finance,
-- temporal modelling,
-- systemic banking intelligence,
-- and ecosystem contagion analysis
-inside a unified financial intelligence architecture.
+Rather than focusing exclusively on prediction, the platform aims to generate explainable behavioural intelligence that supports better strategic, operational, and customer-focused decision making.
 
 ---
 
 # Project Vision
 
-BEFI was designed as a next-generation behavioural financial intelligence platform capable of modelling:
-- behavioural borrower ecosystems,
-- propagated financial instability,
-- explainable operational intelligence,
-- temporal behavioural evolution,
-- ecosystem-level contagion,
-- and uncertainty-aware financial intelligence.
+BEFI was designed as a next-generation Behavioural Financial Intelligence Platform capable of modelling:
 
-The project moves beyond traditional credit scoring toward:
+- Behavioural borrower ecosystems
+- Propagated financial instability
+- Explainable operational intelligence
+- Temporal behavioural evolution
+- Ecosystem-level contagion
+- Behavioural uncertainty
+- Machine learning-ready behavioural intelligence
 
-## Behavioural Ecosystem Intelligence
+The project intentionally moves beyond traditional credit scoring toward a broader concept of **Behavioural Ecosystem Intelligence**.
 
-The long-term objective is not simply predicting default, but understanding how financial ecosystems evolve over time.
+Its long-term objective is not simply predicting default, but understanding how financial ecosystems evolve, how financial stress develops, how institutions can respond proactively, and how financial technology can support responsible and inclusive economic participation.
 
 ---
 
 # Why This Project Matters
 
-Many modern financial systems still rely heavily on:
-- static scoring,
-- isolated borrower analysis,
-- and opaque decision systems.
+Modern financial institutions generate enormous volumes of customer data every day.
 
-BEFI explores a different hypothesis:
+Most analytical systems focus on questions such as:
 
-> Financial instability behaves more like an evolving network ecosystem than a collection of independent financial events.
+- Should this loan be approved?
+- What is the probability of default?
+- What credit score should this customer receive?
 
-This project was especially influenced by:
-- systemic banking risk research,
-- South African financial ecosystem research,
-- explainable AI,
-- behavioural finance,
-- and graph-based intelligence systems.
+While these questions remain important, they do not explain the behavioural processes that produce financial outcomes.
 
-BEFI therefore attempts to model:
-- behavioural interconnectedness,
-- propagated instability,
-- uncertainty-aware financial intelligence,
-- and temporal behavioural evolution.
+Financial institutions increasingly require systems capable of understanding:
+
+- Why customers become financially vulnerable.
+- Which communities are becoming financially stressed.
+- How behavioural risk develops over time.
+- Which customers require early intervention.
+- Which behavioural patterns indicate improving or deteriorating financial wellbeing.
+- How explainable intelligence can improve trust and regulatory compliance.
+
+BEFI was developed to investigate these questions through the integration of behavioural science, graph analytics, temporal modelling, explainable artificial intelligence, and enterprise software engineering.
+
+---
+
+# Who BEFI Serves
+
+BEFI is designed as a behavioural financial intelligence platform capable of supporting multiple stakeholders within modern financial ecosystems.
+
+## Retail Banks
+
+Examples include:
+
+- FNB
+- Standard Bank
+- Absa
+- Nedbank
+- Capitec
+
+Potential applications include:
+
+- Behavioural credit assessment
+- Portfolio monitoring
+- Early warning systems
+- Explainable lending
+- Customer behavioural intelligence
+
+---
+
+## Credit Risk Teams
+
+Potential applications include:
+
+- Behavioural scoring
+- Customer segmentation
+- Portfolio analytics
+- Behavioural investigation
+- Risk monitoring
+
+---
+
+## Risk Managers
+
+Potential applications include:
+
+- Portfolio stability analysis
+- Behavioural contagion monitoring
+- Ecosystem risk analysis
+- Emerging financial stress detection
+
+---
+
+## Data Scientists
+
+Potential applications include:
+
+- Behavioural feature engineering
+- Machine learning
+- Graph analytics
+- Explainable AI
+- Behavioural modelling
+
+---
+
+## Financial Inclusion Teams
+
+Potential applications include:
+
+- Thin-file borrower analysis
+- Financial exclusion monitoring
+- Inclusive lending
+- Responsible lending strategy
+
+---
+
+## Regulators
+
+Potential future applications include:
+
+- Explainable AI
+- Responsible lending
+- Financial stability
+- Behavioural monitoring
+- Systemic ecosystem analysis
+
+---
+
+## Executive Management
+
+Potential applications include:
+
+- Portfolio health monitoring
+- Strategic decision support
+- Behavioural trends
+- Customer wellbeing analytics
+- Financial inclusion reporting
+
+  # Why Financial Data Should Be Treated as Human Behaviour
+
+At the centre of every financial dataset is a human being.
+
+Financial data does not exist independently from society, technology, or the economy. Every transaction, repayment, loan application, missed payment, credit enquiry, and banking interaction represents the behaviour of an individual attempting to navigate everyday life.
+
+Behind every financial record is someone trying to:
+
+- earn an income,
+- support a household,
+- pay for education,
+- start a business,
+- manage debt,
+- save for the future,
+- recover from financial hardship,
+- or improve their quality of life.
+
+Financial data is therefore not simply numerical information. It is a behavioural record of how people interact with financial systems.
+
+Traditional financial analytics often treats datasets as collections of numerical variables whose primary purpose is predictive modelling. BEFI adopts a different perspective by recognising that financial variables are behavioural indicators reflecting human decisions made under varying degrees of opportunity, uncertainty, and financial pressure.
+
+This perspective changes how financial intelligence systems should be designed.
+
+Rather than asking only whether a borrower is likely to default, BEFI investigates why financial vulnerability develops, how behavioural patterns emerge, and how financial institutions can better understand the conditions that contribute to financial stress.
+
+This philosophy is heavily influenced by behavioural economics, psychology, financial inclusion research, graph theory, explainable artificial intelligence, and enterprise software engineering.
+
+The objective is not merely improving predictive accuracy, but improving understanding.
 
 ---
 
 # Core Research Philosophy
 
-BEFI was built around four major ideas.
+BEFI was built around five fundamental principles.
 
 ---
 
 ## 1. Borrowers Are Not Isolated
 
-Borrowers exist inside behavioural ecosystems.
+Traditional financial systems primarily analyse customers independently.
 
-Their financial behaviour may be connected through:
+BEFI proposes that borrowers exist within behavioural ecosystems where financial behaviour may be connected through:
+
 - shared financial stress,
-- behavioural similarities,
+- similar borrowing behaviour,
 - institutional overlap,
-- delinquency patterns,
-- and graph-connected instability.
+- repayment patterns,
+- behavioural similarity,
+- and broader socio-economic conditions.
 
-BEFI therefore models borrowers as interconnected behavioural entities.
+Rather than modelling isolated customers, BEFI constructs behavioural relationship graphs capable of representing these ecosystem interactions.
 
 ---
 
 ## 2. Financial Instability Propagates
 
-Risk does not remain isolated.
+Financial risk rarely develops in complete isolation.
 
-Behavioural instability may spread across connected borrower ecosystems through:
-- behavioural influence,
-- shared stress patterns,
-- and financial contagion.
+Economic shocks, employment instability, borrowing behaviour, and changing financial conditions often affect groups of customers simultaneously.
 
-BEFI therefore includes:
+BEFI therefore investigates whether financial instability behaves similarly to contagion within interconnected behavioural ecosystems.
+
+The platform includes:
+
+- behavioural relationship detection,
 - graph propagation,
-- behavioural contagion,
 - ecosystem clustering,
-- and propagated instability scoring.
+- propagated instability scoring,
+- and behavioural contagion analysis.
 
 ---
 
 ## 3. Missing Data May Be Behaviourally Meaningful
 
-Traditional systems often treat missing information as bad data.
+Many analytical systems treat missing data purely as a quality problem.
 
 BEFI challenges this assumption.
 
-Missing data may instead indicate:
+Missing information may instead indicate:
+
 - thin-file borrowers,
-- informal economic participation,
-- institutional invisibility,
 - financial exclusion,
-- or behavioural opacity.
+- informal employment,
+- limited banking history,
+- institutional invisibility,
+- or behavioural uncertainty.
 
-The system therefore distinguishes:
+Instead of immediately discarding incomplete information, the platform distinguishes between:
+
 - structural invalidity,
-from:
-- informational uncertainty.
+- informational uncertainty,
+- and behavioural opacity.
 
-This became one of the project’s most important design principles.
+This became one of the platform's central design principles.
 
 ---
 
 ## 4. Behaviour Evolves Over Time
 
-Traditional financial systems are largely static.
+Financial behaviour is dynamic.
 
-BEFI introduces temporal behavioural intelligence.
+People move between different financial circumstances throughout their lives as employment, income, expenses, debt, and household responsibilities change.
 
-Using Markov Chains, the system investigates:
-- behavioural state evolution,
-- temporal borrower deterioration,
-- future instability,
-- ecosystem migration,
-- and behavioural forecasting over time.
+Traditional credit scoring often represents behaviour as static snapshots.
+
+BEFI introduces temporal behavioural intelligence through Markov Chain modelling, allowing the platform to investigate:
+
+- behavioural state transitions,
+- borrower deterioration,
+- financial recovery,
+- behavioural migration,
+- and future ecosystem evolution.
+
+---
+
+## 5. Artificial Intelligence Should Be Explainable
+
+Financial decisions affect people's lives.
+
+When automated systems influence lending decisions, customers, regulators, and financial institutions should understand how those decisions were reached.
+
+BEFI therefore prioritises explainable intelligence by producing human-readable behavioural explanations rather than relying solely on opaque predictive models.
+
+Transparency, interpretability, and accountability remain fundamental principles throughout the platform.
 
 ---
 
 # System Architecture
+
+The current implementation follows a modular behavioural intelligence pipeline.
 
 ```text
 CSV Loan Data
@@ -172,89 +330,124 @@ Borrower Modelling
         ↓
 Relationship Detection
         ↓
-Graph Construction
+Behavioural Graph Construction
         ↓
 Behavioural Clustering
         ↓
 Risk Propagation
         ↓
-Anomaly Detection
-        ↓
 Behavioural Risk Scoring
+        ↓
+Behavioural State Classification
         ↓
 Explainable Reporting
         ↓
-Temporal State Classification
-        ↓
-Markov Evolution
+Markov Chain Modelling
         ↓
 Temporal Contagion Analysis
         ↓
-Feature Engineering
+Behavioural Feature Engineering
         ↓
-ML-Ready Dataset Export
+Machine Learning Dataset Export
 ```
+
+Each stage has been designed as an independent software component following modular software engineering principles.
 
 ---
 
-# Core System Capabilities
+# Core Platform Capabilities
 
 ## Behavioural Validation
-- financial sanity validation
-- uncertainty-aware borrower processing
-- informational opacity detection
-- structural invalidity analysis
+
+The platform validates financial records before behavioural modelling begins.
+
+Capabilities include:
+
+- financial sanity validation,
+- uncertainty-aware processing,
+- behavioural anomaly detection,
+- informational opacity identification,
+- structural data validation.
 
 ---
 
 ## Graph Intelligence
-- behavioural relationship detection
-- borrower ecosystem construction
-- behavioural clustering
-- graph-connected borrower analysis
+
+BEFI constructs behavioural relationship networks capable of identifying ecosystem-level financial behaviour.
+
+Current capabilities include:
+
+- behavioural relationship detection,
+- borrower ecosystem construction,
+- graph connectivity,
+- behavioural clustering,
+- neighbourhood analysis.
 
 ---
 
-## Propagated Risk Intelligence
-- neighbour influence modelling
-- propagated instability scoring
-- behavioural contagion analysis
-- ecosystem instability amplification
+## Behavioural Risk Intelligence
+
+The platform combines borrower behaviour with graph intelligence to estimate ecosystem-level financial vulnerability.
+
+Current capabilities include:
+
+- behavioural scoring,
+- propagated risk,
+- neighbour influence,
+- behavioural contagion,
+- explainable risk assessment.
 
 ---
 
-## Explainable AI
-- human-readable risk explanations
-- operational intelligence reporting
-- behavioural causality interpretation
-- transparent behavioural scoring
+## Explainable Artificial Intelligence
+
+Every behavioural score is accompanied by a human-readable explanation describing the factors that contributed to the analytical outcome.
+
+The objective is to improve:
+
+- transparency,
+- interpretability,
+- operational trust,
+- and responsible financial decision making.
 
 ---
 
 ## Temporal Behavioural Intelligence
-- behavioural state classification
-- Markov Chain modelling
-- future-state prediction
-- behavioural evolution forecasting
-- temporal contagion analysis
+
+Markov Chain modelling enables investigation into behavioural change over time.
+
+Capabilities include:
+
+- behavioural state transitions,
+- temporal forecasting,
+- future-state prediction,
+- behavioural migration,
+- temporal contagion analysis.
 
 ---
 
 ## Behavioural Feature Engineering
-Exports ML-ready behavioural intelligence datasets including:
+
+The final stage exports machine learning-ready behavioural datasets containing engineered features generated throughout the behavioural intelligence pipeline.
+
+These features include:
+
 - propagated risk,
-- ecosystem metrics,
 - behavioural scores,
-- temporal states,
+- ecosystem metrics,
 - anomaly indicators,
 - uncertainty flags,
-- and contagion features.
+- behavioural states,
+- temporal indicators,
+- contagion measures.
 
 ---
 
 # Behavioural States
 
-Borrowers may transition between behavioural states such as:
+Borrowers may transition between behavioural states throughout their financial journey.
+
+Current behavioural states include:
 
 ```text
 STABLE
@@ -266,404 +459,681 @@ DEFAULTED
 OPAQUE
 ```
 
+These behavioural states provide a higher-level behavioural representation than traditional binary classifications such as "default" and "non-default."
+
 ---
 
 # Markov Chain Integration
 
-The addition of Markov Chains fundamentally transformed the project.
+The introduction of Markov Chains fundamentally transformed the platform.
 
-Before Markov Chains:
-BEFI analysed current behavioural risk.
+Originally, BEFI analysed only the current behavioural condition of borrowers.
 
-After Markov Chains:
-BEFI analyses behavioural evolution over time.
+The integration of temporal modelling allows the platform to investigate how borrower behaviour may evolve over time.
 
-The system can now investigate:
-- future borrower deterioration,
-- repayment instability migration,
-- temporal contagion,
-- evolving behavioural ecosystems,
-- and probabilistic behavioural transitions.
+Current capabilities include:
+
+- behavioural evolution,
+- future-state prediction,
+- temporal borrower deterioration,
+- repayment migration,
+- ecosystem evolution,
+- probabilistic behavioural transitions.
 
 Example:
 
 ```text
 STABLE
-→ 70% remain STABLE
-→ 20% become WATCHLIST
-→ 10% become STRESSED
+
+70% → STABLE
+
+20% → WATCHLIST
+
+10% → STRESSED
 ```
 
-This transformed the system from static analytics into temporal behavioural intelligence.
+Rather than producing a single static assessment, the platform now investigates how behavioural ecosystems may change across future time periods.
 
----
 
 # Algorithms Used
 
-| Algorithm | Purpose |
-|---|---|
-| Union-Find (Disjoint Set Union) | behavioural clustering |
-| Graph Relationship Detection | ecosystem construction |
-| Risk Propagation | neighbour influence modelling |
-| Markov Chains | temporal behavioural evolution |
-| Behavioural Thresholding | risk classification |
-| Rule-Based Explainability | operational interpretation |
-| Feature Engineering | ML-ready dataset generation |
+The current implementation combines classical computer science algorithms with behavioural modelling techniques to investigate financial ecosystems. Rather than relying on a single predictive model, BEFI integrates multiple analytical approaches that work together to generate explainable behavioural intelligence.
+
+| Algorithm / Technique | Purpose |
+|-----------------------|---------|
+| Graph Relationship Detection | Identifies behavioural similarities between borrowers and constructs behavioural ecosystems. |
+| Union-Find (Disjoint Set Union) | Detects connected behavioural communities within the graph. |
+| Risk Propagation | Models how financial instability may spread through interconnected borrower ecosystems. |
+| Behavioural Thresholding | Classifies borrowers into explainable behavioural states. |
+| Markov Chains | Models temporal behavioural evolution and future state transitions. |
+| Rule-Based Explainability | Produces transparent human-readable behavioural explanations. |
+| Behavioural Feature Engineering | Generates machine learning-ready behavioural datasets. |
+| Logistic Regression *(Planned)* | Benchmark explainable predictive model. |
+| Random Forest *(Planned)* | Behavioural classification and feature importance. |
+| XGBoost *(Planned)* | Advanced predictive analytics and portfolio risk modelling. |
+| Graph Neural Networks *(Future)* | Deep learning on behavioural borrower ecosystems. |
 
 ---
 
-# Technologies Used
+# Technology Stack
 
-| Technology | Purpose |
-|---|---|
-| Java | behavioural intelligence engine |
-| SQLite | persistence layer |
-| CSV ingestion | behavioural data loading |
-| Graph modelling | ecosystem intelligence |
-| Markov Chains | temporal forecasting |
-| Python (planned) | ML and analytics |
-| Streamlit (planned) | dashboards |
-| Power BI (planned) | executive analytics |
+BEFI is evolving into a full enterprise platform rather than remaining a standalone Java application.
+
+| Technology | Status | Purpose |
+|------------|--------|---------|
+| Java | Current | Behavioural Intelligence Engine |
+| Spring Boot | Planned | Enterprise backend and REST API platform |
+| MongoDB | Planned | Behavioural document database |
+| Python | Planned | Statistical analysis, machine learning and graph analytics |
+| React | Planned | Enterprise dashboard and user interface |
+| SQLite | Current | Prototype persistence layer |
+| CSV | Current | Behavioural data ingestion |
+| Graph Algorithms | Current | Behavioural ecosystem modelling |
+| Markov Chains | Current | Temporal behavioural intelligence |
+| Docker | Planned | Containerisation |
+| Linux | Planned | Development and deployment platform |
+| GitHub Actions | Planned | Continuous Integration / Continuous Deployment |
+| Streamlit | Planned | Research dashboards and rapid analytical interfaces |
 
 ---
 
 # Why Java Was Chosen
 
-Java was intentionally selected because:
-- enterprise financial systems frequently rely on JVM ecosystems,
-- strong object-oriented architecture supports modular intelligence systems,
-- scalable behavioural pipelines benefit from structured orchestration,
-- and large analytical systems are easier to manage in strongly typed environments.
+Java was intentionally selected as the foundation of BEFI because enterprise financial systems continue to rely heavily on the Java ecosystem.
 
-The platform follows:
-- modular architecture,
-- SRP (Single Responsibility Principle),
-- layered orchestration,
-- and explainable analytical separation.
+Java provides:
 
----
+- strong object-oriented architecture,
+- mature enterprise tooling,
+- excellent scalability,
+- robust collections and graph processing,
+- maintainable modular design,
+- strong type safety,
+- and long-term maintainability.
 
-# Planned Python Analytics Layer
+The behavioural intelligence engine has been designed using modular software engineering principles including:
 
-BEFI is intentionally designed as a multi-platform financial intelligence ecosystem.
+- Single Responsibility Principle (SRP),
+- Separation of Concerns,
+- modular orchestration,
+- layered architecture,
+- explainable analytical pipelines.
 
-Java currently functions as:
-- the behavioural intelligence backend.
-
-Python will become:
-- the advanced analytics and AI layer.
-
-Planned Python capabilities include:
-- graph visualisation,
-- behavioural heatmaps,
-- predictive ML,
-- temporal dashboards,
-- ecosystem analytics,
-- contagion visualisation,
-- and explainable AI dashboards.
+Java serves as the computational core of the platform.
 
 ---
 
-# Planned Future Expansion
+# Why Spring Boot
 
-## Visual Intelligence
-Planned visualisations include:
-- behavioural ecosystem graphs,
-- Markov transition heatmaps,
-- Sankey behavioural migration diagrams,
-- contagion concentration maps,
-- temporal portfolio evolution dashboards,
-- and explainable ecosystem intelligence interfaces.
+The next evolution of BEFI is the migration from a standalone Java application to an enterprise Spring Boot platform.
+
+Spring Boot will provide:
+
+- enterprise application architecture,
+- dependency injection,
+- REST API development,
+- service orchestration,
+- validation,
+- configuration management,
+- security integration,
+- scalability,
+- and production-ready deployment.
+
+The existing behavioural intelligence engine will be migrated into Spring services while preserving the current analytical architecture.
+
+---
+
+# REST API Platform
+
+Spring Boot will expose the behavioural intelligence engine through REST APIs.
+
+Planned endpoints include:
+
+## Borrowers
+
+```http
+GET /api/borrowers
+GET /api/borrowers/{id}
+POST /api/borrowers
+PUT /api/borrowers/{id}
+DELETE /api/borrowers/{id}
+```
+
+## Behavioural Intelligence
+
+```http
+GET /api/behaviour/risk
+GET /api/behaviour/clusters
+GET /api/behaviour/graph
+GET /api/behaviour/personas
+```
+
+## Markov Intelligence
+
+```http
+GET /api/markov/transitions
+GET /api/markov/predictions
+```
+
+## Analytics
+
+```http
+POST /api/import
+POST /api/analyse
+GET /api/features
+GET /api/reports
+```
+
+The API layer will allow external applications, dashboards, and analytical services to consume BEFI's behavioural intelligence.
+
+---
+
+# Why MongoDB
+
+Traditional relational databases are well suited for structured transactional systems.
+
+However, behavioural ecosystems naturally resemble document-oriented data.
+
+Each borrower contains:
+
+- financial attributes,
+- behavioural states,
+- graph relationships,
+- propagated risk,
+- Markov predictions,
+- explainability information,
+- engineered behavioural features.
+
+MongoDB provides a flexible document model capable of storing these interconnected behavioural entities without requiring rigid relational schemas.
+
+Example borrower document:
+
+```json
+{
+  "borrowerId": "A10284",
+  "state": "WATCHLIST",
+  "riskScore": 53,
+  "propagatedRisk": 4,
+  "clusterId": 18,
+  "relationships": [
+    "B9201",
+    "C4482"
+  ],
+  "markovPrediction": {
+    "nextState": "STRESSED",
+    "probability": 0.71
+  }
+}
+```
+
+MongoDB also provides excellent scalability for future behavioural ecosystem analysis.
+
+---
+
+# React Frontend
+
+BEFI is planned as a modern enterprise platform with a React frontend.
+
+The dashboard will provide:
+
+- executive reporting,
+- borrower profiles,
+- behavioural visualisations,
+- graph exploration,
+- portfolio monitoring,
+- explainable AI reports,
+- temporal behavioural dashboards,
+- financial ecosystem analytics.
+
+Rather than interacting with CSV files, users will interact with the behavioural intelligence platform through an intuitive web interface.
+
+---
+
+# Python Analytics Layer
+
+Python will provide the advanced analytical capabilities of BEFI.
+
+Responsibilities include:
+
+- exploratory data analysis,
+- statistical validation,
+- graph analytics,
+- machine learning,
+- explainable AI,
+- behavioural clustering,
+- feature importance analysis,
+- model evaluation,
+- behavioural visualisation.
+
+Planned libraries include:
+
+- Pandas
+- NumPy
+- Scikit-learn
+- NetworkX
+- XGBoost
+- SHAP
+- Matplotlib
+- Plotly
+
+The Java behavioural intelligence engine will generate engineered behavioural features that Python will consume for advanced analytics.
+
+---
+
+# Linux Development Environment
+
+The long-term development and deployment environment for BEFI will be Linux.
+
+Learning Linux is a key objective of the project because most enterprise backend services and cloud environments operate on Linux-based infrastructure.
+
+Linux will be used for:
+
+- backend development,
+- Docker containers,
+- Spring Boot deployment,
+- Python execution,
+- MongoDB hosting,
+- CI/CD pipelines,
+- cloud deployment.
+
+The platform will eventually be deployable as a complete Linux-based enterprise application.
+
+---
+
+# Enterprise Architecture
+
+The long-term architecture of BEFI is illustrated below.
+
+```text
+                           React Frontend
+                                  │
+                                  │ REST API
+                                  ▼
+                       Spring Boot Backend
+                                  │
+        ┌─────────────────┬─────────────────┬
+        ▼                 ▼                 ▼
+ Borrower Service   Graph Service    Analytics Service
+        │                 │                 │
+        └─────────────────┼─────────────────┘
+                          ▼
+            Behaviour Intelligence Engine (Java)
+                          │
+              ┌───────────┴───────────┐
+              ▼                       ▼
+          MongoDB             Python Analytics
+              │                       │
+              ▼                       ▼
+ Behavioural Storage     Machine Learning & Visualisation
+```
+
+This architecture separates enterprise services, behavioural intelligence, analytics, persistence, and presentation into independent modules capable of evolving without tightly coupling the platform.
+
+
+# South African Financial Context
+
+Although the concepts explored within BEFI have global relevance, the platform has been designed with particular consideration for the South African financial landscape.
+
+South Africa presents unique financial challenges characterised by:
+
+- High levels of income inequality.
+- High unemployment.
+- Financial exclusion.
+- Thin-file borrowers.
+- Informal economic participation.
+- Household debt vulnerability.
+- Unequal access to financial services.
+
+These conditions create behavioural patterns that are often not adequately represented by traditional credit scoring systems.
+
+BEFI therefore investigates behavioural financial intelligence within the context of emerging economies where financial behaviour is influenced by broader socio-economic realities rather than purely individual financial decision-making.
+
+The project is influenced by South African research on:
+
+- systemic banking risk,
+- financial inclusion,
+- behavioural uncertainty,
+- explainable artificial intelligence,
+- and responsible financial innovation.
+
+Rather than attempting to replace existing credit scoring methodologies, BEFI aims to complement them through explainable behavioural intelligence.
+
+---
+
+# Research Foundations
+
+BEFI combines concepts from multiple academic disciplines.
+
+## Behavioural Economics
+
+Understanding that financial decisions are influenced by uncertainty, cognitive bias, and behavioural adaptation rather than perfect rationality.
+
+---
+
+## Psychology
+
+Understanding financial behaviour as human behaviour shaped by stress, scarcity, decision-making, resilience, and adaptation.
+
+---
+
+## Financial Inclusion
+
+Recognising that missing or limited financial information may indicate financial exclusion rather than financial irresponsibility.
+
+---
+
+## Graph Theory
+
+Representing borrowers as interconnected behavioural entities rather than isolated observations.
+
+---
+
+## Explainable Artificial Intelligence
+
+Producing transparent behavioural explanations that support trust, regulatory compliance, and responsible financial decision-making.
+
+---
+
+## Temporal Modelling
+
+Understanding that financial behaviour changes over time rather than remaining static.
+
+---
+
+## Enterprise Software Engineering
+
+Designing behavioural intelligence systems using modular, scalable, maintainable software engineering principles.
+
+---
+
+# Repository Structure
+
+```
+BEFI
+│
+├── src/
+│   ├── behavioural/
+│   ├── graph/
+│   ├── markov/
+│   ├── propagation/
+│   ├── reporting/
+│   ├── validation/
+│   └── export/
+│
+├── data/
+│
+├── output/
+│
+├── python/                 (Planned)
+│
+├── backend/                (Planned Spring Boot)
+│
+├── frontend/               (Planned React)
+│
+├── docs/                   (Planned Documentation)
+│
+└── README.md
+```
+
+As the platform evolves, the repository will transition from a standalone Java application into a modular enterprise solution consisting of independent backend, frontend, analytics, and documentation modules.
+
+---
+
+# Current Project Status
+
+## Completed
+
+- Behavioural data ingestion
+- Borrower modelling
+- Financial validation
+- Behavioural relationship detection
+- Graph construction
+- Behavioural clustering
+- Risk propagation
+- Behavioural risk scoring
+- Behavioural state classification
+- Explainable reporting
+- Markov Chain integration
+- Temporal behavioural modelling
+- Behavioural feature engineering
+- Machine learning dataset export
+
+---
+
+## Currently In Progress
+
+- Behavioural score calibration
+- Graph optimisation
+- Python analytics integration
+- Statistical validation
+- Behavioural visualisation
+- Research documentation
+
+---
+
+## Planned
+
+### Enterprise Backend
+
+- Spring Boot
+- REST APIs
+- Authentication
+- Validation
+- Business Services
+
+### Behavioural Database
+
+- MongoDB
+- Behavioural document storage
+- Graph persistence
+- Temporal history
+
+### Frontend
+
+- React
+- Material UI
+- Interactive dashboards
+- Behavioural network visualisation
+- Executive reporting
+
+### Analytics
+
+- Pandas
+- NetworkX
+- Scikit-learn
+- XGBoost
+- SHAP
+- Statistical validation
+
+### Infrastructure
+
+- Linux
+- Docker
+- Docker Compose
+- GitHub Actions
+- Cloud deployment
+
+---
+
+# Development Roadmap
+
+## Phase 1 — Behavioural Intelligence Engine ✅
+
+Completed
+
+- Java implementation
+- Behavioural modelling
+- Graph intelligence
+- Explainable scoring
+- Markov Chains
+- Feature engineering
+
+---
+
+## Phase 2 — Enterprise Platform
+
+Current Focus
+
+- Spring Boot
+- REST APIs
+- MongoDB
+- Enterprise architecture
+
+---
+
+## Phase 3 — Behavioural Analytics
+
+Planned
+
+- Python
+- Statistical validation
+- Machine learning
+- Graph analytics
+- Explainable AI
+
+---
+
+## Phase 4 — User Experience
+
+Planned
+
+- React
+- Executive dashboards
+- Behavioural ecosystem visualisation
+- Interactive reporting
+
+---
+
+## Phase 5 — Infrastructure
+
+Planned
+
+- Linux deployment
+- Docker
+- Continuous Integration
+- Cloud-native deployment
+
+---
+
+# Research Foundations and Technical References
+
+This project was influenced by a combination of academic literature, South African financial research, open-source software, and technical documentation.
+
+Major influences include:
+
+## South African Financial Research
+
+- DSFSI ZA-BANK-RISK
+- University of Pretoria Banking Risk Research
+- University of Pretoria Credit Risk Research
+- SciELO South African Banking Research
+
+---
+
+## Behavioural Economics
+
+- Daniel Kahneman
+- Amos Tversky
+- Richard Thaler
+- Robert Shiller
+
+---
+
+## Behavioural Finance
+
+- Financial Inclusion Research
+- World Bank Global Findex
+- South African National Treasury
+- FinMark Trust
+
+---
+
+## Explainable Artificial Intelligence
+
+- SHAP
+- Explainable AI for Tree-Based Models
+- Interpretable Machine Learning for Financial Systems
+
+---
+
+## Graph Theory
+
+- Network Science
+- NetworkX
+- Graph Algorithms
+
+---
+
+## Temporal Modelling
+
+- Markov Chains
+- Discrete Stochastic Processes
 
 ---
 
 ## Machine Learning
-Future planned models include:
+
+- Scikit-learn
 - XGBoost
-- Random Forests
-- Isolation Forest
-- Graph Neural Networks
-- Temporal Graph Networks
-- Survival Analysis Systems
+- Pandas
 
 ---
 
-## Multi-Platform Ecosystem
-Long-term architecture vision:
-- Java intelligence backend
-- Python analytics ecosystem
-- web dashboards
-- cloud deployment
-- mobile operational intelligence
-- explainable AI interfaces
+## Enterprise Software Engineering
+
+- Spring Boot
+- SOLID Principles
+- Clean Architecture
+- Enterprise Java
 
 ---
 
-# South African Financial Context
+# Original Contribution
 
-BEFI was heavily influenced by:
-- South African banking research,
-- systemic financial risk modelling,
-- financial exclusion research,
-- and emerging-market behavioural uncertainty.
+While BEFI has been informed by existing research and technical literature, the overall platform architecture, behavioural modelling pipeline, graph orchestration, explainability framework, behavioural ecosystem concept, and software implementation are original work developed by the author.
 
-Special attention was given to:
-- thin-file borrowers,
-- institutional invisibility,
-- informal economic participation,
-- and uncertainty-aware financial modelling.
-
-This gives the platform contextual relevance beyond generic Western financial scoring systems.
+External research has been used to inform theoretical foundations, validate concepts, and guide architectural decisions rather than replicate existing implementations.
 
 ---
 
-# Research Foundations and Technical Sources
+# Future Vision
 
-## South African Banking and Financial Intelligence Research
+BEFI is intended to evolve into a modular enterprise Behavioural Financial Intelligence Platform capable of integrating behavioural science, software engineering, graph intelligence, explainable artificial intelligence, and machine learning into a single analytical ecosystem.
 
-### DSFSI ZA-BANK-RISK Repository
-https://github.com/dsfsi/za-bank-risk
+The long-term vision extends beyond credit scoring.
 
-Influenced:
-- South African financial risk modelling
-- banking analytics architecture
-- systemic banking intelligence
-- financial ecosystem reasoning
+The platform aims to help financial institutions understand:
 
----
+- why financial risk emerges,
+- how behavioural ecosystems evolve,
+- how financial instability propagates,
+- how customer wellbeing changes over time,
+- and how explainable intelligence can support more transparent, responsible, and inclusive financial decision-making.
 
-### University of Pretoria Banking Risk Research
-https://repository.up.ac.za/server/api/core/bitstreams/6551cc01-75d4-4213-9696-dc382cb38a06/content
-
-Influenced:
-- systemic banking instability concepts
-- financial interconnectedness
-- ecosystem-level financial analysis
+Ultimately, BEFI seeks to demonstrate that financial intelligence is not only about predicting outcomes, but also about understanding the human behaviour that produces them.
 
 ---
 
-### SciELO South African Banking Risk Research
-https://www.scielo.org.za/scielo.php?script=sci_arttext&pid=S2313-78352021000200004
+# Acknowledgements
 
-Influenced:
-- banking network modelling
-- financial contagion thinking
-- systemic ecosystem analysis
+This project draws upon the work of researchers, practitioners, and open-source communities in behavioural economics, financial inclusion, graph theory, explainable artificial intelligence, enterprise software engineering, and machine learning.
+
+Their contributions have helped shape the research direction and technical architecture of BEFI.
 
 ---
 
-### University of Pretoria Credit Risk Research
-https://repository.up.ac.za/server/api/core/bitstreams/d6a939c0-c0dd-4c0b-a8f1-4ff6e12211b7/content
+# Author
 
-Influenced:
-- credit scoring theory
-- explainable financial modelling
-- probabilistic banking systems
-- logistic regression reasoning
+**Masego Madisha**
 
----
+BEFI is an independent long-term research and software engineering project created to explore the intersection of behavioural science, financial intelligence, graph analytics, enterprise software engineering, and artificial intelligence.
 
-# Explainable AI and Interpretable Machine Learning
-
-### Explainable AI for Tree-Based Models
-https://arxiv.org/abs/1706.07466
-
-Influenced:
-- explainable behavioural scoring
-- transparent AI systems
-- human-readable operational intelligence
+The platform continues to evolve as new research, technologies, and analytical methods are incorporated into its architecture.
 
 ---
 
-### Interpretable Machine Learning in Financial Systems
-https://arxiv.org/abs/2005.14658
+## Licence
 
-Influenced:
-- interpretable behavioural intelligence
-- explainable financial AI
-- operational transparency frameworks
+This repository is released under the MIT License.
 
----
-
-# Banking Analytics and Exploratory Data Analysis
-
-### EDA Banking Python Project
-https://github.com/SouRitra01/Exploratory-Data-Analysis-EDA-in-Banking-Python-Project-/blob/main/Proj1_EDA_Pandas_Banking%20(1).ipynb
-
-Influenced:
-- banking EDA workflows
-- financial preprocessing
-- behavioural feature exploration
-- financial dataset analytics
-
----
-
-# Behavioural Finance and Economic Psychology
-
-### Daniel Kahneman — Thinking, Fast and Slow
-
-Influenced:
-- behavioural uncertainty
-- financial irrationality
-- cognitive bias thinking
-- uncertainty-aware intelligence
-
----
-
-### Richard Thaler — Nudge
-
-Influenced:
-- behavioural economic reasoning
-- human-centred financial behaviour
-- behavioural system framing
-
----
-
-### Robert Shiller — Narrative Economics
-
-Influenced:
-- financial behaviour as evolving systems
-- narrative-driven economic behaviour
-- ecosystem-level financial thinking
-
----
-
-# Graph Theory and Network Science
-
-### Network Science — Albert-László Barabási
-http://networksciencebook.com
-
-Influenced:
-- ecosystem modelling
-- behavioural network thinking
-- graph-connected instability
-- contagion reasoning
-
----
-
-### NetworkX Documentation
-https://networkx.org/documentation/stable/
-
-Influenced:
-- graph architecture concepts
-- ecosystem visualisation planning
-- network propagation concepts
-
----
-
-# Temporal Modelling and Markov Systems
-
-### MIT OpenCourseWare — Discrete Stochastic Processes
-https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/
-
-Influenced:
-- stochastic behavioural modelling
-- temporal transition systems
-- probabilistic state evolution
-
----
-
-### Stanford Encyclopedia — Markov Chains
-https://plato.stanford.edu/entries/markov-chains/
-
-Influenced:
-- temporal behavioural state modelling
-- future-state forecasting
-- transition probability reasoning
-
----
-
-# Core Algorithmic Foundations
-
-### Princeton Algorithms — Union Find
-https://algs4.cs.princeton.edu/15uf/
-
-Influenced:
-- behavioural clustering
-- borrower ecosystem grouping
-- graph connectivity infrastructure
-
----
-
-# Data Science and Machine Learning Foundations
-
-### Pandas
-https://pandas.pydata.org
-
-### Scikit-Learn
-https://scikit-learn.org/stable/
-
-### XGBoost
-https://xgboost.ai
-
-### Streamlit
-https://streamlit.io
-
----
-
-# Software Engineering and Architecture Principles
-
-## SOLID Principles
-Influenced:
-- modular behavioural architecture
-- SRP-based system design
-- analytical separation of concerns
-
----
-
-## Clean Architecture Concepts
-Influenced:
-- layered orchestration
-- intelligence pipeline separation
-- scalable financial system design
-
----
-
-# Important Note
-
-Most of the behavioural architecture, graph orchestration, explainable intelligence layers, temporal modelling infrastructure, and ecosystem reasoning systems were custom-designed specifically for BEFI rather than cloned from external repositories.
-
-The external sources primarily served as:
-- conceptual inspiration,
-- research foundations,
-- theoretical guidance,
-- and architectural influence.
-
----
-
-# Current Status
-
-## Completed
-- behavioural ingestion pipeline
-- graph ecosystem modelling
-- propagated risk analysis
-- behavioural clustering
-- anomaly detection
-- explainable scoring
-- temporal behavioural intelligence
-- Markov forecasting
-- temporal contagion analysis
-- ML-ready feature export
-
----
-
-## In Progress
-- temporal calibration
-- visual analytics
-- Python integration
-- dashboard systems
-- behavioural network visualisation
-- ecosystem intelligence dashboards
-
----
-
-# Final Vision
-
-BEFI is intended to evolve into a multi-platform behavioural ecosystem intelligence platform capable of:
-- behavioural forecasting,
-- explainable operational intelligence,
-- graph ecosystem analysis,
-- temporal behavioural modelling,
-- and AI-assisted financial ecosystem intelligence.
-
-The long-term objective is not simply predicting default, but understanding how behavioural financial ecosystems evolve over time.
+See the `LICENSE` file for additional information.
