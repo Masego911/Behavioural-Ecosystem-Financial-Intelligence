@@ -841,30 +841,64 @@ Designing behavioural intelligence systems using modular, scalable, maintainable
 # Repository Structure
 
 ```
-BEFI
+BEFI/
 │
-├── src/
-│   ├── behavioural/
-│   ├── graph/
-│   ├── markov/
-│   ├── propagation/
-│   ├── reporting/
-│   ├── validation/
-│   └── export/
+├── .github/
+│   └── workflows/
+│
+├── backend/                 # Spring Boot (future)
+│
+├── frontend/                # React (future)
+│
+├── python/                  # Python analytics (future)
 │
 ├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── sample/
 │
-├── output/
+├── docker/                  # Docker files (future)
 │
-├── python/                 (Planned)
+├── docs/
+│   ├── ROADMAP.md
+│   ├── SRS.md
+│   ├── VISION.md
+│   ├── ARCHITECTURE.md
+│   ├── USE_CASES.md
+│   ├── DATABASE_DESIGN.md
+│   ├── API_SPECIFICATION.md
+│   ├── MACHINE_LEARNING.md
+│   ├── INSTALLATION.md
+│   ├── CHANGELOG.md
+│   ├── CONTRIBUTING.md
+│   │
+│   ├── UML/
+│   │   ├── Use Case Diagrams.vsdx
+│   │   ├── Class Diagram.vsdx
+│   │   ├── Package Diagram.vsdx
+│   │   ├── Activity Diagrams.vsdx
+│   │   ├── Sequence Diagrams.vsdx
+│   │   ├── State Diagrams.vsdx
+│   │   └── Deployment Diagram.vsdx
+│   │
+│   ├── ADR/
+│   │   ├── ADR-001-Why-ELT.md
+│   │   ├── ADR-002-Why-MongoDB.md
+│   │   ├── ADR-003-Why-SpringBoot.md
+│   │   ├── ADR-004-Why-React.md
+│   │   ├── ADR-005-Why-Python.md
+│   │   ├── ADR-006-Why-Markov-Chains.md
+│   │   ├── ADR-007-Why-Graph-Analytics.md
+│   │   └── ADR-008-Why-Linux-Docker.md
+│   │
+│   └── MEETING_NOTES.md
 │
-├── backend/                (Planned Spring Boot)
+├── src/                     # Current Java project
 │
-├── frontend/               (Planned React)
-│
-├── docs/                   (Planned Documentation)
-│
-└── README.md
+├── README.md
+├── LICENSE
+├── .gitignore
+└── pom.xml (or build.gradle)
 ```
 
 As the platform evolves, the repository will transition from a standalone Java application into a modular enterprise solution consisting of independent backend, frontend, analytics, and documentation modules.
